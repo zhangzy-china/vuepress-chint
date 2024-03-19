@@ -12,7 +12,7 @@ hero:
       link: https://icloud.chintpower.com/#/login/index
     - theme: alt
       text: 文档中心
-      link: /api-examples
+      link: /device
 
 features:
   - title: Feature A
