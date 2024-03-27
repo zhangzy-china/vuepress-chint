@@ -1,10 +1,10 @@
 import { defineConfig  } from 'vitepress'
 import { nav as navbar, sidebar } from './relaConf'
 import { search } from './utils/search'
-/* 网页根据浏览器语言来进行跳转，显示中英文判断 */
+
 export default defineConfig({
   base: "/chint" ,
-  head: [['link', { rel: 'icon', href: './public/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '../public/favicon.ico' }]],
   title: "chint",
   lang:'zh',
   description: "A VitePress Site",
@@ -24,7 +24,7 @@ export default defineConfig({
     },
     i18nRouting: true,
     footer: {
-      copyright: '上海正泰系统有限公司后台管理系统'
+      copyright: 'MatriCloud智慧能源管理系统说明文档'
     },
     // 设置搜索框的样式
     search:search,

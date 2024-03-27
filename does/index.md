@@ -1,25 +1,14 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "vitepress-chint"
-  text: "chint管理后台文档"
-  tagline: chint管理后台
+  text: "全球新能源数据监控"
   actions:
     - theme: brand
       text: 管理系统
       link: https://icloud.chintpower.com/#/login/index
     - theme: alt
-      text: 文档中心
-      link: /device
-
-features:
-  - title: Feature A
-    details: 特性一
-  - title: Feature B
-    details: 特性二
-  - title: Feature C
-    details: 特性三
+      text: 进入文档中心
+      link: /Introduction/manual
 ---
-
+ <img src="/assets/homepage.png">
